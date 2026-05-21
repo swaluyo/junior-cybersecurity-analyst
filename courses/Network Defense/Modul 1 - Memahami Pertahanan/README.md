@@ -1,80 +1,83 @@
-# Security Operations Overview
+# Cybersecurity Operations and Defense-in-Depth
 
-Modul ini berfokus pada pengelolaan operasi keamanan siber yang mencakup desain, pembangunan, pengoperasian, dan pengembangan berkelanjutan terhadap kemampuan keamanan organisasi secara menyeluruh.
+Melindungi infrastruktur jaringan modern merupakan tantangan yang terus berkembang seiring meningkatnya kompleksitas teknologi dan ancaman siber. Pertumbuhan Internet of Things (IoT), penggunaan perangkat bergerak, layanan berbasis cloud, virtualisasi, serta konektivitas nirkabel telah memperluas permukaan serangan (attack surface) yang harus diamankan oleh organisasi.
 
-Materi dalam modul ini membahas berbagai lapisan keamanan yang diperlukan untuk melindungi infrastruktur teknologi informasi modern, mulai dari keamanan fisik perangkat hingga keamanan jaringan, aplikasi, serta perangkat yang saling terhubung (IoT dan sistem siber-fisik).
+Setiap tahun, jutaan perangkat baru terhubung ke jaringan organisasi maupun internet publik. Selain itu, pengguna juga menghubungkan berbagai perangkat pribadi ke lingkungan kerja, yang meningkatkan kebutuhan terhadap strategi keamanan yang adaptif, terukur, dan berlapis.
 
----
+Untuk menghadapi tantangan tersebut, organisasi modern menerapkan pendekatan **Defense-in-Depth**, yaitu strategi keamanan berlapis yang dirancang untuk melindungi:
 
-## Learning Objectives
-
-Pada modul ini, pembelajaran mencakup:
-
-- Konsep dasar dan pengelolaan operasi keamanan siber
-- Keamanan fisik sebagai garis pertahanan pertama
-- Perlindungan aplikasi dan perangkat lunak
-- Pengamanan layanan dan protokol jaringan
-- Segmentasi jaringan menggunakan VLAN
-- Keamanan jaringan nirkabel dan seluler menggunakan standar WPA
-- Ketahanan keamanan siber dalam desain jaringan
-- Risiko keamanan pada perangkat yang saling terhubung:
-  - perangkat medis
-  - kendaraan
-  - drone
-  - perangkat IoT lainnya
-- Implementasi kontrol dan mekanisme keamanan berlapis
-- Monitoring keamanan dan deteksi risiko siber
-- Strategi perlindungan terhadap ancaman dan serangan siber
+- pengguna internal
+- pekerja lapangan dan remote users
+- perangkat endpoint
+- infrastruktur jaringan
+- layanan cloud dan virtual
+- data dan aplikasi organisasi
 
 ---
 
-## Key Security Concepts
+# Cybersecurity Operations Management
 
-### Physical Security
-Keamanan fisik perangkat dan infrastruktur merupakan lapisan pertahanan pertama untuk melindungi aset teknologi informasi dari akses yang tidak sah dan gangguan fisik.
+Manajemen operasi keamanan siber mencakup seluruh konfigurasi, proses, kontrol, dan aktivitas yang diperlukan untuk menjaga keamanan serta keberlangsungan operasional jaringan dan sistem informasi.
 
-### Application Security
-Keamanan aplikasi dirancang untuk melindungi perangkat lunak dari kerentanan, eksploitasi, dan ancaman keamanan lainnya.
+Salah satu komponen penting dalam operasi keamanan adalah **Configuration Management**, yaitu proses untuk:
 
-### Network Security
-Layanan dan protokol jaringan memiliki kerentanan tersendiri sehingga memerlukan teknik pengamanan khusus untuk menjaga kerahasiaan, integritas, dan ketersediaan data.
+- mengidentifikasi konfigurasi sistem
+- mengontrol perubahan
+- melakukan audit konfigurasi
+- memastikan integritas baseline sistem
+- memantau implementasi perubahan terhadap lingkungan operasional
 
-### Network Segmentation
-Segmentasi jaringan menggunakan VLAN membantu memperkuat keamanan dengan membatasi lalu lintas jaringan dan mengisolasi area tertentu dari ancaman.
-
-### Wireless Security
-Penggunaan standar keamanan WPA membantu melindungi koneksi jaringan nirkabel dan perangkat seluler pengguna dari akses tidak sah.
-
-### Cyber Resilience
-Desain jaringan modern memerlukan berbagai alat dan strategi untuk memastikan ketahanan keamanan siber terhadap ancaman dan gangguan operasional.
-
-### Cyber-Physical Systems Security
-Perangkat yang terhubung seperti perangkat medis, kendaraan, dan drone juga rentan terhadap serangan siber sehingga membutuhkan perlindungan yang memadai.
+Pendekatan ini membantu organisasi menjaga konsistensi, stabilitas, dan keamanan infrastruktur teknologi informasi.
 
 ---
 
-## Security Operations Perspective
+# Security Policies, Standards, and Compliance
 
-Setiap organisasi memerlukan lapisan mekanisme dan kontrol keamanan untuk:
+Keamanan jaringan dan data tidak hanya bergantung pada teknologi, tetapi juga pada penerapan kebijakan dan tata kelola keamanan yang efektif.
 
-- mengurangi risiko keamanan siber
-- mendeteksi ancaman
-- memantau aktivitas jaringan
-- merespons insiden keamanan
-- melindungi sistem dan data organisasi
+Organisasi perlu menetapkan:
 
-Sebagai teknisi atau analis keamanan siber, pemahaman terhadap pengelolaan dan pemantauan keamanan menjadi bagian penting dalam menjaga ketahanan dan keberlangsungan operasional organisasi.
+- security policies
+- standards
+- procedures
+- guidelines
+- compliance controls
+
+untuk memastikan bahwa seluruh praktik keamanan diterapkan secara konsisten dan sesuai dengan kebutuhan operasional maupun regulasi yang berlaku.
 
 ---
 
-## Skills Developed
+# Network Defense Strategy
 
-- Security Operations
-- Network Security
-- VLAN Segmentation
-- Wireless Security
-- Risk Monitoring
-- Threat Detection
-- Cybersecurity Management
-- Infrastructure Protection
-- Security Awareness
+Berbagai metode dan teknologi digunakan untuk melindungi:
+
+- jaringan
+- perangkat
+- aplikasi
+- layanan
+- data organisasi
+
+Pendekatan keamanan ini mencakup:
+- network segmentation
+- access control
+- monitoring
+- threat detection
+- vulnerability management
+- incident response
+- layered security architecture
+
+---
+
+# Module Overview
+
+Modul ini membahas pendekatan **Defense-in-Depth** dalam keamanan jaringan dan operasi keamanan siber, termasuk:
+
+- konsep pertahanan berlapis
+- manajemen operasi keamanan siber
+- pengelolaan konfigurasi
+- kebijakan dan standar keamanan
+- pengamanan jaringan dan perangkat
+- praktik keamanan operasional
+- monitoring dan pengelolaan risiko keamanan
+
+Materi ini dirancang untuk membantu memahami bagaimana organisasi membangun, mengelola, dan mempertahankan lingkungan teknologi yang aman, andal, dan resilien terhadap ancaman siber modern.
