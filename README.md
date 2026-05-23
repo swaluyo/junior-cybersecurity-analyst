@@ -14,8 +14,13 @@ Hands-on cybersecurity learning portfolio focused on:
 # Current Learning
 
 - Cisco Networking Academy
-- Junior Cybersecurity Analyst
-- Network Defense
+- Junior Cybersecurity Analyst:
+  - Introduction to Cybersecurity
+  - Network Basics
+  - Networking Devices and Initial Configuration
+  - Endpoint Security  
+  - Network Defense
+  - Cyber Thread Management
 - Endpoint Security
 - Python for Security
 
