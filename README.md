@@ -21,7 +21,6 @@ Hands-on cybersecurity learning portfolio focused on:
   - Endpoint Security  
   - Network Defense
   - Cyber Thread Management
-- Endpoint Security
 - Python for Security
 
 ---
